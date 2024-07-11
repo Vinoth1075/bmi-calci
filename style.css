@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg,rgb(153, 202, 7),rgb(19, 162, 218),rgb(223, 92, 92));
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px ;
+    height: 300pxpx;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgba(0, 0, 0,0.4);
+  }
+  
+  h1 {
+    text-align: center;
+    font-style: initial;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius:
+    
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #bmiResult {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
